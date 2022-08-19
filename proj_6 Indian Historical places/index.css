@@ -1,0 +1,33 @@
+#Header{
+
+    position: fixed;
+    top: 0%;
+    height: 70px;
+    width: 100%;
+    background: linear-gradient(orange,white,green);
+}
+#Footer{
+    position: fixed;
+    bottom:0px;
+    width : 100%;
+    background: linear-gradient(orange,white,green);
+}
+.container{
+    background : linear-gradient(orange,white,green);
+    height: 1000px;
+    width: auto;
+    display: grid ;
+    top:70px;
+    grid-template-rows: 500px 500px 500px;
+    grid-template-columns: 219px 219px 219px ;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.iteam{
+    margin: auto;
+    padding : 10px;
+   height: 155px;
+   width:218px;
+}
